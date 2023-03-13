@@ -1,24 +1,22 @@
-vCard - Personal Portfolio
-
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Matthias Heim
+Matthias Heim
+Physicist
 
 Show Contacts
 
 Email
-richard@example.com
+heim.ma@physik.lmu.de
 
 Phone
 +1 (213) 352-2795
 
 Birthday
-June 23, 1982
+December 24, 1998
 
 Location
-Sacramento, California, USA
+Munich, Bavaria, Germany
 
 # navbar
 
