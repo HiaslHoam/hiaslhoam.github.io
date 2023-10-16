@@ -13,9 +13,10 @@ function mainPage() {
             <Route path="/" element={<About />}></Route>
             {serverData.portfolioPages.map((page) => (
               <Route
+                exact
                 key={page.id}
                 path={page.path}
-                element={
+                component={
                   <PortfolioDetail
                     title={page.title}
                     text={page.text}

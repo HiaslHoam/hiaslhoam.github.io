@@ -14,7 +14,7 @@
   }
 
   .border {
-    border: 1px solid rgb(134, 134, 134);
+    border: none;
   }
 
   .border-white {
@@ -42,12 +42,15 @@
   }
   .card {
     background: rgb(34, 34, 34);
-    --tw-shadow: 0 20px 25px -5px rgba(109, 109, 109, 0.227),
-      0 8px 10px -6px rgba(109, 109, 109, 0.227);
+    --tw-shadow: 0 20px 25px -5px rgba(32, 32, 32, 0.227),
+      0 8px 10px -6px rgba(32, 32, 32, 0.227);
     --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color),
       0 8px 10px -6px var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-      var(--tw-ring-shadow, 0 0 #b1b1b100), var(--tw-shadow);
+      var(--tw-ring-shadow, 0 0 #36363600), var(--tw-shadow);
+  }
+  .timeline-logo-end * {
+    color: #72ad77 !important;
   }
 }
 
@@ -64,7 +67,7 @@
   }
 
   .border {
-    border: 1px solid rgb(99, 99, 99);
+    border: none;
   }
 
   .About {
@@ -123,9 +126,6 @@
       rgb(207, 207, 207, 0.8) 100%
     );
   }
-  .about-content {
-    height: 65vh !important;
-  }
   .avatar-width {
     width: 5rem !important;
   }
@@ -157,15 +157,15 @@
 }
 
 .About {
-  overflow: hidden;
+  overflow: visible;
   min-width: 320px;
   max-width: 90vw;
   width: 70vw;
 }
 
 .about-content {
-  height: 90vh;
-  overflow-y: auto;
+  overflow-y: visible;
+  overflow-x: auto;
   width: 100%;
 }
 
