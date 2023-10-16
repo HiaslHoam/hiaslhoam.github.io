@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const PortfolioCard = ({ image, title, text, link, blanktab }) => {
   return (
     <div>
@@ -9,9 +11,15 @@ export const PortfolioCard = ({ image, title, text, link, blanktab }) => {
           <h2 className="card-title">{title}</h2>
           <p className="">{text}</p>
           <div className="card-actions justify-end">
-            <a href={link} target={blanktab && "_blank"} rel="noreferrer">
-              <button className="btn btn-success text-white">More</button>
-            </a>
+            {blanktab ? (
+              <a href={link} target={"_blank"} rel="noreferrer">
+                <button className="btn btn-success text-white">More</button>
+              </a>
+            ) : (
+              <Link to={link}>
+                <button className="btn btn-success text-white">More</button>
+              </Link>
+            )}
           </div>
         </div>
       </div>

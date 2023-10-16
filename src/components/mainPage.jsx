@@ -16,7 +16,7 @@ function mainPage() {
                 exact
                 key={page.id}
                 path={page.path}
-                component={
+                element={
                   <PortfolioDetail
                     title={page.title}
                     text={page.text}
@@ -27,7 +27,6 @@ function mainPage() {
                 }
               ></Route>
             ))}
-            <Route path="/pubman/" element={<PortfolioDetail />}></Route>
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </div>

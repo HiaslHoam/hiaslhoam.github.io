@@ -54,7 +54,7 @@ export const serverData = {
       imagesrc: "pubman.png",
       title: "Pubman",
       text: "Developed to store, filter and export publications and their bibtex code. You can find a live demo version with the button below.",
-      link: "/pubman/",
+      link: "/pubman",
       blanktab: false,
     },
     {
