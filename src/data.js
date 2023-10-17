@@ -44,7 +44,7 @@ export const serverData = {
       date: "July 2018",
       title:
         "German Abitur (A-levels) at BBS für Technologie und Umwelt in Wittlich",
-      text: "Chosing electro-technology, mathematics and english as my main subjects, I finished my Abitur (A-levels) in 2018 ",
+      text: "Choosing electro-technology, mathematics and english as my main subjects, I finished my Abitur (A-levels) in 2018 ",
     },
   ],
   portfolioItem: [
