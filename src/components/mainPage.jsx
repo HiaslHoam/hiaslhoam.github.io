@@ -7,7 +7,7 @@ import { serverData } from "../data";
 function mainPage() {
   return (
     <div>
-      <div className="About backdrop-blur-xs border flex flex-col justify-start dark:text-white text-black shadow-lg rounded-2xl z-1">
+      <div className="About backdrop-blur-xs border flex flex-col justify-start dark:text-white text-black shadow-lg rounded-2xl z-1 mb-10">
         <div className="about-content pt-5 pl-5 pr-5">
           <Routes>
             <Route path="/" element={<About />}></Route>

@@ -1,9 +1,4 @@
-import {
-  IconMail,
-  IconMapPin,
-  IconBrandGithub,
-  IconBrandWordpress,
-} from "@tabler/icons-react";
+import { IconMail, IconMapPin, IconBrandGithub } from "@tabler/icons-react";
 import Avatar from "../images/avatar.avif";
 
 function Bio() {
@@ -66,18 +61,6 @@ function Bio() {
               size="1.6rem"
               className="LinkBio"
             ></IconBrandGithub>
-          </a>
-          <a
-            href="https://moechtegern-astronaut.de/"
-            target="_blank"
-            rel="noreferrer"
-            className="tooltip tooltip-success"
-            data-tip="My Blog (German)"
-          >
-            <IconBrandWordpress
-              className="LinkBio"
-              size="1.6rem"
-            ></IconBrandWordpress>
           </a>
         </div>
       </div>

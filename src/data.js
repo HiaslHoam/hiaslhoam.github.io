@@ -34,17 +34,24 @@ export const serverData = {
   ],
   education: [
     {
-      id: 1,
+      id: 2,
       date: "September 2019 - September 2023",
       title: "Bachelor of Science in Physics at LMU Munich",
       text: "I started my bachelor's in physics in September 2019 and finished it in 2023 with a specialization in astrophysics.",
     },
     {
-      id: 2,
+      id: 1,
       date: "July 2018",
       title:
         "German Abitur (A-levels) at BBS für Technologie und Umwelt in Wittlich",
       text: "Choosing electro-technology, mathematics and english as my main subjects, I finished my Abitur (A-levels) in 2018 ",
+    },
+    {
+      id: 3,
+      date: "October 2024 - October 2025",
+      title:
+        "Master Thesis at the Chair of Prof. Kevin Heng in Theoretical Astrophysics of Extrasolar Planets",
+      text: "I work on atmospheric retrieval of gaseous giant planets using JWST's newest spectral data and a bayesian inference tool called BeAR.",
     },
   ],
   portfolioItem: [
@@ -67,15 +74,6 @@ export const serverData = {
     },
     {
       id: 3,
-      image: "blog",
-      imagesrc: "blog.png",
-      title: "Möchtegern-Astronaut (Science Blog)",
-      text: "I'm very interested in science journalism. I write about current astronomy topics in German on my blog Möchtegern-Astronaut.",
-      link: "https://moechtegern-astronaut.de",
-      blanktab: true,
-    },
-    {
-      id: 4,
       image: "portfolio",
       imagesrc: "react.png",
       title: "This Website",

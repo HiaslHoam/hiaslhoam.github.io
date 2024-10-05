@@ -10,7 +10,7 @@ function Resume() {
         title="Education"
         icon={<IconSchool size="1.6rem" className="timeline-logo-tile" />}
       >
-        {serverData.education.map((education) => (
+        {serverData.education.sort((a, b) => b.id - a.id).map((education) => (
           <TimelineObject
             key={education.id}
             date={education.date}

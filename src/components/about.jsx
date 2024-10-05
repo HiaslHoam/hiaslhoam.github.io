@@ -7,14 +7,20 @@ function About() {
       <div>
         <div className="text-4xl font-bold ">About Me</div>
         <div className="font-light mt-2">
+          Hey there! 👋🏻 <br />
+          <br />
           I'm a master's student in astrophysics at LMU Munich. I'm interested
           in exoplanets, planet formation, cosmology and astrophysical data
-          sciences including machine learning.
+          sciences including machine learning. I have started with my master's
+          thesis in October 2024 at the
+          <i>Theoretical Astrophysics of Extrasolar Planets</i> chair of Prof.
+          Kevin Heng, where I work on atmospheric retreival using JWST spectral
+          data to work out the composition of the atmospheres of hot gas
+          planets.
+          <br />
           <br />I have experience in Python, JavaScript and web development
           including React, HTML and CSS. Apart from research and programmming, I
-          have a great interest in science communication. I maintain a blog
-          about astrophysics with the aim of explaining complicated topics in an
-          easy manner.
+          have a great interest in science communication.
         </div>
       </div>
       <div>
