@@ -10,14 +10,17 @@ function Resume() {
         title="Education"
         icon={<IconSchool size="1.6rem" className="timeline-logo-tile" />}
       >
-        {serverData.education.sort((a, b) => b.id - a.id).map((education) => (
-          <TimelineObject
-            key={education.id}
-            date={education.date}
-            heading={education.title}
-            text={education.text}
-          />
-        ))}
+        {serverData.education
+          .sort((a, b) => b.id - a.id)
+          .map((education) => (
+            <TimelineObject
+              key={education.id}
+              date={education.date}
+              heading={education.title}
+              text={education.text}
+              collab={education.collab}
+            />
+          ))}
       </Timeline>
       <Timeline
         title="Work Experience"
@@ -28,6 +31,7 @@ function Resume() {
             key={work.id}
             date={work.date}
             heading={work.title}
+            link={work.link}
             text={work.text}
           />
         ))}
@@ -46,8 +50,10 @@ function Resume() {
           <TimelineObject
             key={publication.id}
             date={publication.date}
+            link={publication.link}
             heading={publication.title}
             text={publication.text}
+            collab={publication.collab}
           />
         ))}
       </Timeline>

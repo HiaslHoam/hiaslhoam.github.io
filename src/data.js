@@ -13,22 +13,27 @@ export const serverData = {
     {
       id: 1,
       date: "September 2023",
+      link: "https://cloud.lmunity.work/s/RxCtwEoTjmZ3g7Y",
       title:
         "Bachelor's Thesis: Galaxy Cluster Mass Estimation Using Deep Neural Networks on Simulated eROSITA X-Ray Data",
       text: "I examine three different deep convolutional neural networks (CNNs) to see if they are capable of estimating galaxy cluster masses from simulations made for eROSITA’s Final Equatorial Depth Survey (eFEDS).",
+      collab:
+        "Supervisors: Dr. Sven Krippendorf (LMU/Cambridge), Prof. Jochen Weller (LMU)",
     },
   ],
   work: [
     {
       id: 1,
       date: "February 2023 - April 2023",
+      link: "https://www.deutsches-museum.de/museum/aktuell/pioniere-des-wissens",
       title: "Explainer at Deutsches Museum in Munich",
       text: "For the exhibition about Nobel laureates, I worked at the Deutsches Museum Munich for the Max Planck Institute for Extraterrestrial Physics.",
     },
     {
       id: 2,
       date: "April 2022 - September 2022",
-      title: "Web-App development for publication management",
+      link: "/pubman",
+      title: "Web-App Development for Publication Management",
       text: "I developed a web-app that helped to archive, organize and filter publications.",
     },
   ],
@@ -47,11 +52,17 @@ export const serverData = {
       text: "Choosing electro-technology, mathematics and english as my main subjects, I finished my Abitur (A-levels) in 2018 ",
     },
     {
-      id: 3,
+      id: 4,
       date: "October 2024 - October 2025",
-      title:
-        "Master Thesis at the Chair of Prof. Kevin Heng in Theoretical Astrophysics of Extrasolar Planets",
-      text: "I work on atmospheric retrieval of gaseous giant planets using JWST's newest spectral data and a bayesian inference tool called BeAR.",
+      title: "Master Thesis in Theoretical Astrophysics of Extrasolar Planets",
+      text: "I perform atmospheric retrieval with low resolution transmission spectra obtained by the James-Webb-Space-Telescope. By combining traditional bayesian methods and machine learning, I want to shape the future of atmospheric retrievals in the time of large missions such as ARIEL.",
+      collab: "Supervisors: Anna Lueber, Prof. Kevin Heng",
+    },
+    {
+      id: 3,
+      date: "October 2023 - October 2025",
+      title: "Master of Science in Astrophysics at LMU Munich",
+      text: "After finishing my Bachelor, I continued my studies at LMU and started a Master in Astrophysics in 2023. I chose a big variety of courses spanning fields from observational methods to cosmology. After visiting a lecture about exoplanets and their atmospheres, I found a big interest in atmoshperic retrievals and started my master's thesis with Prof. Kevin Heng in 2024.",
     },
   ],
   portfolioItem: [

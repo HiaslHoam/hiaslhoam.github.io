@@ -13,14 +13,14 @@ function About() {
           in exoplanets, planet formation, cosmology and astrophysical data
           sciences including machine learning. I have started with my master's
           thesis in October 2024 at the
-          <i>Theoretical Astrophysics of Extrasolar Planets</i> chair of Prof.
+          <i> Theoretical Astrophysics of Extrasolar Planets</i> chair of Prof.
           Kevin Heng, where I work on atmospheric retreival using JWST spectral
-          data to work out the composition of the atmospheres of hot gas
-          planets.
+          data to work out the composition of the atmospheres of exoplanets.
           <br />
-          <br />I have experience in Python, JavaScript and web development
+          <br />I have experience in Python, JavaScript and Web Development
           including React, HTML and CSS. Apart from research and programmming, I
-          have a great interest in science communication.
+          have a great interest in science communication and giving educational
+          talks.
         </div>
       </div>
       <div>
