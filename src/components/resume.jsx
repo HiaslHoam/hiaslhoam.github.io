@@ -5,7 +5,7 @@ import { IconSchool, IconServerCog, IconNotes } from "@tabler/icons-react";
 
 function Resume() {
   return (
-    <div className="Resume p-5 flex flex-col gap-14 xl:w-4/5">
+    <div className="Resume p-5 flex flex-col gap-14 xl:w-4/5 pb-12 ">
       <Timeline
         title="Education"
         icon={<IconSchool size="1.6rem" className="timeline-logo-tile" />}
@@ -26,15 +26,17 @@ function Resume() {
         title="Work Experience"
         icon={<IconServerCog size="1.6rem" className="timeline-logo-tile" />}
       >
-        {serverData.work.map((work) => (
-          <TimelineObject
-            key={work.id}
-            date={work.date}
-            heading={work.title}
-            link={work.link}
-            text={work.text}
-          />
-        ))}
+        {serverData.work
+          .sort((a, b) => b.id - a.id)
+          .map((work) => (
+            <TimelineObject
+              key={work.id}
+              date={work.date}
+              heading={work.title}
+              link={work.link}
+              text={work.text}
+            />
+          ))}
       </Timeline>
       <Timeline
         title="Publications"
@@ -46,16 +48,18 @@ function Resume() {
           />
         }
       >
-        {serverData.publications.map((publication) => (
-          <TimelineObject
-            key={publication.id}
-            date={publication.date}
-            link={publication.link}
-            heading={publication.title}
-            text={publication.text}
-            collab={publication.collab}
-          />
-        ))}
+        {serverData.publications
+          .sort((a, b) => b.id - a.id)
+          .map((publication) => (
+            <TimelineObject
+              key={publication.id}
+              date={publication.date}
+              link={publication.link}
+              heading={publication.title}
+              text={publication.text}
+              collab={publication.collab}
+            />
+          ))}
       </Timeline>
     </div>
   );

@@ -20,21 +20,38 @@ export const serverData = {
       collab:
         "Supervisors: Dr. Sven Krippendorf (LMU/Cambridge), Prof. Jochen Weller (LMU)",
     },
+    {
+      id: 2,
+      date: "February 2025",
+      link: "https://arxiv.org/abs/2502.18045",
+      title:
+        "Near-instantaneous Atmospheric Retrievals and Model Comparison with FASTER",
+      text: "We present a new method for near-instantaneous atmospheric retrievals and model comparison with the FASTER algorithm. We demonstrate the method on a simulated dataset of transmission spectra of exoplanets.",
+      collab:
+        "Authors: Anna Lueber, Konstantin Karchev, Chloe Fisher, Matthias Heim, Roberto Trotta and Kevin Heng",
+    },
   ],
   work: [
     {
-      id: 1,
+      id: 2,
       date: "February 2023 - April 2023",
       link: "https://www.deutsches-museum.de/museum/aktuell/pioniere-des-wissens",
       title: "Explainer at Deutsches Museum in Munich",
       text: "For the exhibition about Nobel laureates, I worked at the Deutsches Museum Munich for the Max Planck Institute for Extraterrestrial Physics.",
     },
     {
-      id: 2,
+      id: 1,
       date: "April 2022 - September 2022",
       link: "/pubman",
       title: "Web-App Development for Publication Management",
       text: "I developed a web-app that helped to archive, organize and filter publications.",
+    },
+    {
+      id: 3,
+      date: "January 2024 - April 2025",
+      link: "https://www2.physik.uni-muenchen.de/lehre/praktika/index.html",
+      title: "Supervision of physics students in the bachelor's physics labs",
+      text: "I supervise physics students within the bachelor's physics labs at LMU Munich. The labs cover different topics of optics and atom physics.",
     },
   ],
   education: [
@@ -71,7 +88,7 @@ export const serverData = {
       image: "pubman",
       imagesrc: "pubman.png",
       title: "Pubman",
-      text: "Developed to store, filter and export publications and their bibtex code. You can find a live demo version with the button below.",
+      text: "Developed to store, filter and export publications and their bibtex code, Pubman is a web application that I developed for the group around Prof. Thomas Kuhr at LMU in 2022.",
       link: "/pubman",
       blanktab: false,
     },

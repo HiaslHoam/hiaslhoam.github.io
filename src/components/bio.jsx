@@ -1,4 +1,5 @@
 import { IconMail, IconMapPin, IconBrandGithub } from "@tabler/icons-react";
+import { FaOrcid, FaGoogleScholar, FaGithub } from "react-icons/fa6";
 import Avatar from "../images/avatar.avif";
 
 function Bio() {
@@ -17,7 +18,7 @@ function Bio() {
           Physicist
         </div>
       </div>
-      <div className="links-flex flex xl:flex-col flex-row items-center  truncate text-ellipsis xl:divide-y divide-black dark:divide-stone-400 text-black dark:text-white gap-3">
+      <div className="links-flex flex xl:flex-col flex-row items-center truncate text-ellipsis xl:divide-y divide-black dark:divide-stone-400 text-black dark:text-white gap-3">
         <div className="flex flex-col justify-center items-center gap-3 content-between text-left xl:min-w-full">
           <div className="flex flex-row gap-3 mt-4 min-h-fit">
             <div className="bg-contrast text-lg rounded-2xl text-center flex items-center p-2">
@@ -57,12 +58,44 @@ function Bio() {
             className="tooltip tooltip-success"
             data-tip="Github"
           >
-            <IconBrandGithub
+            <FaGithub size="1.6rem" className="LinkBio"></FaGithub>
+          </a>
+          <a
+            href="https://orcid.org/0009-0005-9020-0827"
+            target="_blank"
+            rel="noreferrer"
+            className="tooltip tooltip-success"
+            data-tip="ORCID"
+          >
+            <FaOrcid size="1.6rem" className="LinkBio"></FaOrcid>
+          </a>
+          <a
+            href="https://scholar.google.com/citations?user=PUb0wwkAAAAJ&hl=en"
+            target="_blank"
+            rel="noreferrer"
+            className="tooltip tooltip-success"
+            data-tip="Google Scholar"
+          >
+            <FaGoogleScholar
               size="1.6rem"
               className="LinkBio"
-            ></IconBrandGithub>
+            ></FaGoogleScholar>
           </a>
         </div>
+        {/* <div className="flex flex-row gap-5 pt-4 -pb-2 xl:min-w-full justify-center">
+          <a
+            href="/imprint"
+            className="hover:text-contrast ease-in-out transition-all"
+          >
+            Imprint
+          </a>
+          <a
+            href="/privacy"
+            className="hover:text-contrast ease-in-out transition-all"
+          >
+            Privacy
+          </a>
+        </div> */}
       </div>
     </div>
   );

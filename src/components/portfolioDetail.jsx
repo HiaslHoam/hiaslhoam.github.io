@@ -3,7 +3,7 @@ import React from "react";
 function portfolioDetail({ title, text, image, code, stack }) {
   return (
     <div className="">
-      <div className="text-sm breadcrumbs">
+      <div className="text-sm breadcrumbs min-h-max">
         <ul>
           <li>
             <a href="/">About Me</a>
@@ -42,7 +42,7 @@ function portfolioDetail({ title, text, image, code, stack }) {
             alt={title}
           />
         </div>
-        <div className="font-light mt-2 max-w-3xl">{text}</div>
+        <div className="font-light mt-2 max-w-3xl pb-10">{text}</div>
       </div>
     </div>
   );
