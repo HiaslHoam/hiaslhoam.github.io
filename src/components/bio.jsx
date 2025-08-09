@@ -1,5 +1,10 @@
-import { IconMail, IconMapPin, IconBrandGithub } from "@tabler/icons-react";
-import { FaOrcid, FaGoogleScholar, FaGithub } from "react-icons/fa6";
+import { IconMail, IconMapPin } from "@tabler/icons-react";
+import {
+  FaOrcid,
+  FaGoogleScholar,
+  FaGithub,
+  FaCameraRetro,
+} from "react-icons/fa6";
 import Avatar from "../images/avatar.avif";
 
 function Bio() {
@@ -15,7 +20,7 @@ function Bio() {
           Matthias Heim
         </div>
         <div className="bg-contrast text-white rounded-xl pl-3 pr-3 pt-1 pb-1">
-          Physicist
+          Master's Student
         </div>
       </div>
       <div className="links-flex flex xl:flex-col flex-row items-center truncate text-ellipsis xl:divide-y divide-black dark:divide-stone-400 text-black dark:text-white gap-3">
@@ -80,6 +85,15 @@ function Bio() {
               size="1.6rem"
               className="LinkBio"
             ></FaGoogleScholar>
+          </a>
+          <a
+            href="https://hiaslhoam.github.io/photography/"
+            target="_blank"
+            rel="noreferrer"
+            className="tooltip tooltip-success"
+            data-tip="Not Instragram"
+          >
+            <FaCameraRetro size="1.6rem" className="LinkBio"></FaCameraRetro>
           </a>
         </div>
         {/* <div className="flex flex-row gap-5 pt-4 -pb-2 xl:min-w-full justify-center">

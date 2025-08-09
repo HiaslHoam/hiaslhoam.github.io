@@ -23,6 +23,7 @@ function mainPage() {
                     image={page.imagesrc}
                     code={page.code}
                     stack={page.stack}
+                    link={page.link}
                   />
                 }
               ></Route>

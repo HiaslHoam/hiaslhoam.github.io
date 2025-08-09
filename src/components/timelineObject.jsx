@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 function TimelineObject({ date, link, heading, text, collab }) {
   const linkAvailable = !!link;
   const headingClass = linkAvailable
@@ -15,11 +13,9 @@ function TimelineObject({ date, link, heading, text, collab }) {
       </time>
       <h3 className={headingClass}>
         {linkAvailable ? (
-          <Link to={link} className={linkClass}>
-            <a href={link} target="_blank" rel="noreferrer">
-              {heading}
-            </a>
-          </Link>
+          <a href={link} target="_blank" rel="noreferrer" className={linkClass}>
+            {heading}
+          </a>
         ) : (
           heading
         )}

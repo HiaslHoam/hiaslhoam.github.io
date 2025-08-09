@@ -1,6 +1,7 @@
 import React from "react";
 
-function portfolioDetail({ title, text, image, code, stack }) {
+function portfolioDetail({ title, text, image, code, stack, link }) {
+  console.log(link);
   return (
     <div className="">
       <div className="text-sm breadcrumbs min-h-max">
@@ -19,8 +20,9 @@ function portfolioDetail({ title, text, image, code, stack }) {
       <div className="flex flex-col gap-5">
         <div className="text-4xl font-bold">{title}</div>
         <div className="-mt-5 flex flex-wrap gap-2 items-center ">
-          {stack.map((stack) => (
+          {stack.map((stack, index) => (
             <div
+              key={index}
               className={
                 stack.color +
                 " badge text-white p-3 rounded-lg border-none shadow-md"
@@ -29,8 +31,11 @@ function portfolioDetail({ title, text, image, code, stack }) {
               {stack.name}
             </div>
           ))}
-          {code.map((code) => (
-            <div className="badge badge-outline p-lang rounded-lg shadow-md">
+          {code.map((code, index) => (
+            <div
+              key={index}
+              className="badge badge-outline p-lang rounded-lg shadow-md"
+            >
               {code}
             </div>
           ))}
@@ -42,7 +47,14 @@ function portfolioDetail({ title, text, image, code, stack }) {
             alt={title}
           />
         </div>
-        <div className="font-light mt-2 max-w-3xl pb-10">{text}</div>
+        <div className="font-light mt-2 max-w-3xl pb-1">{text}</div>
+        {link && (
+          <div className="card-actions pb-10">
+            <a href={link} target={"_blank"} rel="noreferrer">
+              <button className="btn btn-success text-white">Learn More</button>
+            </a>
+          </div>
+        )}
       </div>
     </div>
   );

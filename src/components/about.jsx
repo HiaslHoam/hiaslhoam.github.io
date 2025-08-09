@@ -19,10 +19,6 @@ function About() {
           learning techniques to improve the efficiency of atmospheric
           retrievals.
           <br />
-          <br />I have experience in Python, JavaScript, and web development,
-          including React, HTML, and CSS. Beyond research and programming, I am
-          passionate about science communication and enjoy giving educational
-          talks.
         </div>
       </div>
       <div>
