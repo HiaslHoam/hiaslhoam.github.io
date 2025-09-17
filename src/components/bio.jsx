@@ -55,7 +55,7 @@ function Bio() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row gap-5 p-4 pb-0 xl:min-w-full justify-center">
+        <div className="flex flex-row flex-wrap gap-5 p-4 pb-0 xl:min-w-full justify-center">
           <a
             href="https://github.com/HiaslHoam/"
             target="_blank"

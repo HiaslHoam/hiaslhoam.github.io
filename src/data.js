@@ -23,7 +23,7 @@ export const serverData = {
     {
       id: 2,
       date: "February 2025",
-      link: "https://arxiv.org/abs/2502.18045",
+      link: "https://iopscience.iop.org/article/10.3847/2041-8213/adc7aa",
       title:
         "Near-instantaneous Atmospheric Retrievals and Model Comparison with FASTER",
       text: "We present a new method for near-instantaneous atmospheric retrievals and model comparison with the FASTER algorithm. We demonstrate the method on a simulated dataset of transmission spectra of exoplanets.",
@@ -42,7 +42,7 @@ export const serverData = {
     {
       id: 1,
       date: "April 2022 - September 2022",
-      link: "/pubman",
+      link: "https://gitlab.physik.lmu.de/LDAP_ag-kuhr/pubman-react/",
       title: "Web-App Development for Publication Management",
       text: "I developed a web-app that helped to archive, organize and filter publications.",
     },
@@ -96,7 +96,7 @@ export const serverData = {
       imagesrc: "pubman.png",
       title: "Pubman",
       text: "Developed to store, filter and export publications and their bibtex code, Pubman is a web application that I developed for the group around Prof. Thomas Kuhr at LMU in 2022.",
-      link: "/pubman",
+      link: "/pubman/",
       blanktab: false,
     },
     {
