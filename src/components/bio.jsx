@@ -87,7 +87,7 @@ function Bio() {
             ></FaGoogleScholar>
           </a>
           <a
-            href="https://hiaslhoam.github.io/photography/"
+            href="https://hiaslhoam.github.io/photos/"
             target="_blank"
             rel="noreferrer"
             className="tooltip tooltip-success"
