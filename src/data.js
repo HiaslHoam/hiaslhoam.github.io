@@ -119,11 +119,11 @@ export const serverData = {
     {
       id: 3,
       image: "photography",
-      imagesrc: "DSC01002.jpg",
+      imagesrc: "DSC06310.jpg",
       title: "Photography",
       text: "Wanna see what I am up to when not sitting in front of a computer? Check out my photography page.",
       blanktab: true,
-      link: "https://hiaslhoam.github.io/photography/",
+      link: "https://hiaslhoam.github.io/photos/",
     },
   ],
   portfolioPages: [
