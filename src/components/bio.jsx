@@ -20,14 +20,14 @@ function Bio() {
           Matthias Heim
         </div>
         <div className="bg-contrast text-white rounded-xl pl-3 pr-3 pt-1 pb-1">
-          Master's Student
+          PhD Student
         </div>
       </div>
       <div className="links-flex flex xl:flex-col flex-row items-center truncate text-ellipsis xl:divide-y divide-black dark:divide-stone-400 text-black dark:text-white gap-3">
         <div className="flex flex-col justify-center items-center gap-3 content-between text-left xl:min-w-full">
           <div className="flex flex-row gap-3 mt-4 min-h-fit">
             <div className="bg-contrast text-lg rounded-2xl text-center flex items-center p-2">
-              <a href="mailto:heim.ma@campus.lmu.de">
+              <a href="mailto:heim.ma@lmu.de">
                 <IconMail color="white" size={"1.6rem"}></IconMail>
               </a>
             </div>
@@ -36,9 +36,9 @@ function Bio() {
               <div>
                 <a
                   className="hover:text-contrast ease-in-out transition-all"
-                  href="mailto:heim.ma@campus.lmu.de"
+                  href="mailto:heim.ma@lmu.de"
                 >
-                  heim.ma@campus.lmu.de
+                  heim.ma@lmu.de
                 </a>
               </div>
             </div>

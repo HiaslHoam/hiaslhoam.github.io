@@ -3,8 +3,8 @@ export const serverData = {
     {
       id: 1,
       name: "Matthias Heim",
-      profession: "Master's Student",
-      email: "heim.ma@physik.lmu.de",
+      profession: "PhD Student",
+      email: "heim.ma@lmu.de",
       location: "Munich",
     },
   ],
